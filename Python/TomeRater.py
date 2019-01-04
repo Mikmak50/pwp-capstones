@@ -8,7 +8,7 @@ class User(object):
         return self.email
 
     def change_email(self, address):
-        self.email == address
+        self.email = address
         return "User " + self.name + " email address was updated to " + self.email
 
     def __repr__(self):
@@ -46,7 +46,7 @@ class Book():
         return self.isbn
 
     def set_isbn(self, isbnNumber):
-        self.isbn == isbnNumber
+        self.isbn = isbnNumber
         print("This book’s ISBN has been updated")
 
     def add_rating(self, rating):
